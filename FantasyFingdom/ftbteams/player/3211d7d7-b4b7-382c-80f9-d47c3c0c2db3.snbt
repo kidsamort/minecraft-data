@@ -1,0 +1,19 @@
+{
+	id: "3211d7d7-b4b7-382c-80f9-d47c3c0c2db3"
+	type: "player"
+	player_name: "Chacha"
+	ranks: {
+		3211d7d7-b4b7-382c-80f9-d47c3c0c2db3: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Chacha"
+		"ftbteams:color": "#FF59CB"
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+		"ftbchunks:allow_fake_players": 1b
+	}
+	message_history: [ ]
+	extra: { }
+}

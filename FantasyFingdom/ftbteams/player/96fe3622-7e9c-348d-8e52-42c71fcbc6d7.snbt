@@ -1,0 +1,19 @@
+{
+	id: "96fe3622-7e9c-348d-8e52-42c71fcbc6d7"
+	type: "player"
+	player_name: "Nill"
+	ranks: {
+		96fe3622-7e9c-348d-8e52-42c71fcbc6d7: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Nill"
+		"ftbteams:color": "#97FF59"
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+		"ftbchunks:allow_fake_players": 1b
+	}
+	message_history: [ ]
+	extra: { }
+}

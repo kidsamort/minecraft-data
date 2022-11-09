@@ -1,0 +1,17 @@
+{
+	id: "481acb2e-c675-3bc0-acb9-93c9b4518156"
+	type: "player"
+	player_name: "AlonsaSamort"
+	ranks: { }
+	properties: {
+		"ftbteams:display_name": "AlonsaSamort"
+		"ftbteams:color": "#A759FF"
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+		"ftbchunks:allow_fake_players": 1b
+	}
+	message_history: [ ]
+	extra: { }
+}

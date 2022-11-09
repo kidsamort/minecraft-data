@@ -1,0 +1,19 @@
+{
+	id: "31b62f17-1d77-30c3-b83e-967902c1bc1a"
+	type: "player"
+	player_name: "Huy"
+	ranks: {
+		31b62f17-1d77-30c3-b83e-967902c1bc1a: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Huy"
+		"ftbteams:color": "#FF7159"
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+		"ftbchunks:allow_fake_players": 1b
+	}
+	message_history: [ ]
+	extra: { }
+}

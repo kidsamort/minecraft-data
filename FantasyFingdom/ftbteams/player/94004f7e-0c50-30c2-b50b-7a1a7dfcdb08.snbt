@@ -1,0 +1,17 @@
+{
+	id: "94004f7e-0c50-30c2-b50b-7a1a7dfcdb08"
+	type: "player"
+	player_name: "Mr_Werewolf87"
+	ranks: { }
+	properties: {
+		"ftbteams:display_name": "Mr_Werewolf87"
+		"ftbteams:color": "#59EFFF"
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+		"ftbchunks:allow_fake_players": 1b
+	}
+	message_history: [ ]
+	extra: { }
+}

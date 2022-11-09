@@ -1,0 +1,19 @@
+{
+	id: "66de28e1-8c3c-3425-8126-6c38a552782f"
+	type: "player"
+	player_name: "777"
+	ranks: {
+		66de28e1-8c3c-3425-8126-6c38a552782f: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "777"
+		"ftbteams:color": "#95FF59"
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+		"ftbchunks:allow_fake_players": 1b
+	}
+	message_history: [ ]
+	extra: { }
+}

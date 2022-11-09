@@ -1,0 +1,30 @@
+{
+	id: "71451bd0-8312-4515-82a7-4e009c8a35b9"
+	type: "party"
+	owner: "410cdab5-8d4f-37d9-a8a2-c9f83356c7f2"
+	ranks: {
+		410cdab5-8d4f-37d9-a8a2-c9f83356c7f2: "owner"
+		96fe3622-7e9c-348d-8e52-42c71fcbc6d7: "invited"
+		481acb2e-c675-3bc0-acb9-93c9b4518156: "member"
+		94004f7e-0c50-30c2-b50b-7a1a7dfcdb08: "member"
+	}
+	properties: {
+		"ftbteams:display_name": "KID$AMORT's Party"
+		"ftbteams:color": "#FFDF59"
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+		"ftbchunks:allow_fake_players": 1b
+	}
+	message_history: [
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1666269096923L, text: "{\"color\":\"yellow\",\"extra\":[{\"text\":\"KID$AMORT\"},{\"text\":\" joined your party!\"}],\"text\":\"\"}" }
+		{ from: "410cdab5-8d4f-37d9-a8a2-c9f83356c7f2", date: 1666269097073L, text: "{\"color\":\"green\",\"text\":\"Invited AlonsaSamort\"}" }
+		{ from: "410cdab5-8d4f-37d9-a8a2-c9f83356c7f2", date: 1666288259478L, text: "{\"color\":\"green\",\"text\":\"Invited AlonsaSamort\"}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1666288267993L, text: "{\"color\":\"green\",\"extra\":[{\"text\":\"AlonsaSamort\"},{\"text\":\" joined your party!\"}],\"text\":\"\"}" }
+		{ from: "410cdab5-8d4f-37d9-a8a2-c9f83356c7f2", date: 1666388203100L, text: "{\"color\":\"green\",\"text\":\"Invited Mr_Werewolf87\"}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1666388206310L, text: "{\"color\":\"green\",\"extra\":[{\"text\":\"Mr_Werewolf87\"},{\"text\":\" joined your party!\"}],\"text\":\"\"}" }
+		{ from: "410cdab5-8d4f-37d9-a8a2-c9f83356c7f2", date: 1666629852573L, text: "{\"color\":\"green\",\"text\":\"Invited Nill\"}" }
+	]
+	extra: { }
+}

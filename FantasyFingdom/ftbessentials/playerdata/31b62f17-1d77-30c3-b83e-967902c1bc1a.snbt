@@ -1,0 +1,10 @@
+{
+	muted: false
+	fly: false
+	god: false
+	nick: ""
+	last_seen: { dim: "minecraft:the_nether", x: -2, y: 59, z: 13, time: 1666450205474L }
+	recording: 0
+	teleport_history: [ ]
+	homes: { }
+}
