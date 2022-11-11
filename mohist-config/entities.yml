@@ -1,0 +1,65 @@
+# Welcome to Mohist entity tick configuration!
+# This opens up good TPS savings if used wisely.
+# 'overrides' section populates itself over time.
+# -=-=-=-=-
+# Simple usage cases:
+# 'skip-every: 50' - skips every 50th tick
+# 'skip-every: 0' - tick limiter is not applied (vanilla behaviour)
+# 'skip-every: 1' - entity will not tick at all (skips every 1st tick)
+# 'skip-every: default' - value is grabbed from 'defaults' section
+# Values in range of 0 up to 1000 can be used, you won't need more than that.
+# -=-=-=-=-
+
+defaults:
+  skip-every: 0
+overrides:
+  net-minecraft-entity-player-ServerPlayerEntity:
+    skip-every: default
+  net-minecraft-entity-passive-SheepEntity:
+    skip-every: default
+  net-minecraft-entity-passive-PigEntity:
+    skip-every: default
+  net-minecraft-entity-passive-CowEntity:
+    skip-every: default
+  net-mcreator-seadwellers-entity-MermorphOldEntity$CustomEntity:
+    skip-every: default
+  net-minecraft-entity-item-ItemEntity:
+    skip-every: default
+  net-minecraft-entity-item-ExperienceOrbEntity:
+    skip-every: default
+  org-dawnoftimebuilder-entity-SilkmothEntity:
+    skip-every: default
+  net-mcreator-monstersandgirls-entity-FlyAlexgaricEntity$CustomEntity:
+    skip-every: default
+  net-minecraft-entity-passive-FoxEntity:
+    skip-every: default
+  net-mcreator-monstersandgirls-entity-InkCapEntity$CustomEntity:
+    skip-every: default
+  net-minecraft-entity-monster-SkeletonEntity:
+    skip-every: default
+  net-mcreator-monstersandgirls-entity-BrownMushroomGalEntity$CustomEntity:
+    skip-every: default
+  net-minecraft-entity-passive-ChickenEntity:
+    skip-every: default
+  net-minecraft-entity-passive-horse-SkeletonHorseEntity:
+    skip-every: default
+  net-minecraft-entity-monster-ZombieEntity:
+    skip-every: default
+  net-minecraft-entity-monster-CaveSpiderEntity:
+    skip-every: default
+  net-minecraft-entity-projectile-ArrowEntity:
+    skip-every: default
+  mods-flammpfeil-slashblade-entity-EntitySlashEffect:
+    skip-every: default
+  mods-flammpfeil-slashblade-entity-EntityJudgementCut:
+    skip-every: default
+  net-mcreator-monstersandgirls-entity-RedMushromGalEntity$CustomEntity:
+    skip-every: default
+  io-github-lukegrahamlandry-mimic-entities-MimicEntity:
+    skip-every: default
+  com-github-tartaricacid-touhoulittlemaid-entity-projectile-EntityThrowPowerPoint:
+    skip-every: default
+  com-github-tartaricacid-touhoulittlemaid-entity-item-EntityPowerPoint:
+    skip-every: default
+  net-minecraft-entity-effect-LightningBoltEntity:
+    skip-every: default

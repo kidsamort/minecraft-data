@@ -1,10 +1,10 @@
 Applying: 
-  Clean:     C:\Users\kidsa\Downloads\mods\mcserver\libraries\net\minecraft\server\1.16.5-20210115.111550\server-1.16.5-20210115.111550-srg.jar
-  Output:    C:\Users\kidsa\Downloads\mods\mcserver\libraries\com\mohistmc\mohist\1.16.5-1085\mohist-1.16.5-1085-server.jar
+  Clean:     /data/libraries/net/minecraft/server/1.16.5-20210115.111550/server-1.16.5-20210115.111550-srg.jar
+  Output:    /data/libraries/com/mohistmc/mohist/1.16.5-1086/mohist-1.16.5-1086-server.jar
   KeepData:  false
   Unpatched: false
-  Patches:   C:\Users\kidsa\Downloads\mods\mcserver\libraries\com\mohistmc\installation\data\server.lzma
-Loading patches file: C:\Users\kidsa\Downloads\mods\mcserver\libraries\com\mohistmc\installation\data\server.lzma
+  Patches:   /data/libraries/com/mohistmc/installation/data/server.lzma
+Loading patches file: /data/libraries/com/mohistmc/installation/data/server.lzma
   Reading patch com.mojang.blaze3d.platform.GlStateManager$1.binpatch
     Checksum: 0 Exists: false
   Reading patch com.mojang.blaze3d.platform.GlStateManager$AlphaState.binpatch
@@ -3767,7 +3767,7 @@ Loading patches file: C:\Users\kidsa\Downloads\mods\mcserver\libraries\com\mohis
     Checksum: ac9766b4 Exists: true
   Reading patch net.minecraft.world.storage.WorldSavedData.binpatch
     Checksum: f3fb0286 Exists: true
-Processing: C:\Users\kidsa\Downloads\mods\mcserver\libraries\net\minecraft\server\1.16.5-20210115.111550\server-1.16.5-20210115.111550-srg.jar
+Processing: /data/libraries/net/minecraft/server/1.16.5-20210115.111550/server-1.16.5-20210115.111550-srg.jar
   Patching net/minecraft/util/math/vector/Matrix3f 1/1
   Patching net/minecraft/world/server/ServerBossInfo 1/1
   Patching net/minecraft/world/server/ServerChunkProvider$1 1/1
@@ -5559,3 +5559,90 @@ Processing: C:\Users\kidsa\Downloads\mods\mcserver\libraries\net\minecraft\serve
   Patching net/minecraft/item/SkullItem$1 1/1
   Patching net/minecraft/client/renderer/BufferBuilder$1 1/1
   Patching net/minecraft/client/gui/screen/Screen 1/1
+  Patching net/minecraft/client/renderer/model/ItemCameraTransforms$Deserializer 1/1
+  Patching net/minecraft/client/renderer/BufferBuilder$State 1/1
+  Patching net/minecraft/client/renderer/RenderState$OffsetTexturingState 1/1
+  Patching com/mojang/blaze3d/platform/GlStateManager$TextureState 1/1
+  Patching net/minecraft/client/gui/screen/ControlsScreen 1/1
+  Patching net/minecraft/client/ClientBrandRetriever 1/1
+  Patching net/minecraft/client/world/DimensionRenderInfo$Nether 1/1
+  Patching net/minecraft/client/renderer/model/WeightedBakedModel 1/1
+  Patching net/minecraft/client/gui/widget/list/KeyBindingList$CategoryEntry 1/1
+  Patching net/minecraft/client/gui/screen/CreateWorldScreen 1/1
+  Patching net/minecraft/client/renderer/model/ModelBakery$BlockStateDefinitionException 1/1
+  Patching net/minecraft/client/gui/advancements/AdvancementTabGui 1/1
+  Patching net/minecraft/client/renderer/RenderState$LineState 1/1
+  Patching net/minecraft/client/gui/screen/MainMenuScreen 1/1
+  Patching net/minecraft/client/gui/screen/BiomeGeneratorTypeScreens$8 1/1
+  Patching net/minecraft/client/network/login/ClientLoginNetHandler 1/1
+  Patching net/minecraft/client/gui/screen/BiomeGeneratorTypeScreens$7 1/1
+  Patching net/minecraft/client/gui/screen/BiomeGeneratorTypeScreens$6 1/1
+  Patching net/minecraft/client/gui/screen/BiomeGeneratorTypeScreens$5 1/1
+  Patching net/minecraft/client/gui/screen/BiomeGeneratorTypeScreens$4 1/1
+  Patching net/minecraft/client/gui/screen/BiomeGeneratorTypeScreens$3 1/1
+  Patching net/minecraft/client/gui/screen/BiomeGeneratorTypeScreens$2 1/1
+  Patching net/minecraft/client/renderer/texture/AtlasTexture 1/1
+  Patching net/minecraft/client/gui/widget/list/AbstractList$Ordering 1/1
+  Patching net/minecraft/client/gui/screen/BiomeGeneratorTypeScreens$1 1/1
+  Patching net/minecraft/client/util/SearchTreeManager$Key 1/1
+  Patching net/minecraft/client/resources/GrassColorReloadListener 1/1
+  Patching net/minecraft/client/shader/ShaderGroup 1/1
+  Patching net/minecraft/client/gui/widget/list/AbstractList$SimpleArrayList 1/1
+  Patching net/minecraft/client/gui/screen/OptimizeWorldScreen 1/1
+  Patching net/minecraft/client/network/ServerPinger$2$1 1/1
+  Patching net/minecraft/client/main/Main 1/1
+  Patching net/minecraft/client/KeyboardListener$1 1/1
+  Patching net/minecraft/client/gui/ScreenManager$IScreenFactory 1/1
+  Patching net/minecraft/client/renderer/BlockModelRenderer$Cache 1/1
+  Patching net/minecraft/client/audio/SoundHandler$Loader$1 1/1
+  Patching net/minecraft/client/gui/ScreenManager 1/1
+  Patching net/minecraft/client/renderer/RenderState$TransparencyState 1/1
+  Patching net/minecraft/client/renderer/RenderState$LayerState 1/1
+  Patching net/minecraft/tileentity/LecternTileEntity$LecternInventory 1/1
+  Patching net/minecraft/client/renderer/model/VariantList 1/1
+  Patching com/mojang/blaze3d/platform/GlStateManager$1 1/1
+  Patching net/minecraft/client/GameSettings$2 1/1
+  Patching net/minecraft/client/GameSettings$1 1/1
+  Patching com/mojang/blaze3d/platform/GlStateManager$DepthState 1/1
+  Patching net/minecraft/client/renderer/RenderState$TexturingState 1/1
+  Patching net/minecraft/client/renderer/model/BlockModel$Deserializer 1/1
+  Patching net/minecraft/client/renderer/entity/layers/BipedArmorLayer$1 1/1
+  Patching net/minecraft/client/Minecraft 1/1
+  Patching net/minecraft/client/renderer/Atlases 1/1
+  Patching net/minecraft/client/renderer/FirstPersonRenderer$1 1/1
+  Patching net/minecraft/client/renderer/BlockModelRenderer$NeighborInfo 1/1
+  Patching net/minecraft/client/renderer/RenderState$AlphaState 1/1
+  Patching net/minecraft/client/renderer/model/ItemTransformVec3f 1/1
+  Patching net/minecraft/client/renderer/texture/NativeImage$PixelFormatGLCode 1/1
+  Patching net/minecraft/client/renderer/model/BlockModel 1/1
+  Patching net/minecraft/client/multiplayer/ClientChunkProvider$ChunkArray 1/1
+  Patching net/minecraft/client/multiplayer/ClientChunkProvider$1 1/1
+  Patching net/minecraft/client/particle/DiggingParticle 1/1
+  Patching net/minecraft/client/entity/player/RemoteClientPlayerEntity 1/1
+  Patching net/minecraft/client/renderer/FirstPersonRenderer 1/1
+  Patching net/minecraft/client/gui/widget/list/AbstractList$1 1/1
+  Patching net/minecraft/client/gui/screen/LanguageScreen$List$LanguageEntry 1/1
+  Patching com/mojang/realmsclient/gui/screens/RealmsGenericErrorScreen 1/1
+  Patching net/minecraft/client/renderer/ItemRenderer 1/1
+  Patching net/minecraft/client/GameSettings 1/1
+  Patching net/minecraft/client/renderer/RenderState$FogState 1/1
+  Patching com/mojang/blaze3d/platform/GlStateManager$LogicOp 1/1
+  Patching net/minecraft/client/renderer/texture/NativeImage$PixelFormat 1/1
+  Patching net/minecraft/client/network/ServerPinger 1/1
+  Patching net/minecraft/client/gui/widget/list/AbstractList 1/1
+  Patching net/minecraft/client/world/DimensionRenderInfo 1/1
+  Patching net/minecraft/client/renderer/vertex/VertexFormatElement 1/1
+  Patching net/minecraft/client/audio/SoundHandler 1/1
+  Patching net/minecraft/client/renderer/BlockModelRenderer$VertexTranslations 1/1
+  Patching net/minecraft/world/Explosion$CacheKey 1/1
+  Patching net/minecraft/client/renderer/BlockRendererDispatcher 1/1
+  Patching net/minecraft/client/gui/advancements/AdvancementsScreen 1/1
+  Patching net/minecraft/world/server/ChunkManager$CallbackExecutor 1/1
+  Patching net/minecraft/client/gui/screen/inventory/CreativeScreen 1/1
+  Patching net/minecraft/client/renderer/WorldRenderer$ShaderException 1/1
+  Patching net/minecraft/client/gui/screen/OptionsScreen 1/1
+  Patching net/minecraft/client/main/Main$2 1/1
+  Patching net/minecraft/client/main/Main$1 1/1
+  Patching net/minecraft/client/main/Main$3 1/1
+  Patching com/mojang/blaze3d/platform/GlStateManager$FogState 1/1
+  Patching com/mojang/blaze3d/platform/GlStateManager 1/1

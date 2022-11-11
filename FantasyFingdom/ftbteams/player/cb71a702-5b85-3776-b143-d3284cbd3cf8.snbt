@@ -1,0 +1,19 @@
+{
+	id: "cb71a702-5b85-3776-b143-d3284cbd3cf8"
+	type: "player"
+	player_name: "Vee"
+	ranks: {
+		cb71a702-5b85-3776-b143-d3284cbd3cf8: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Vee"
+		"ftbteams:color": "#59B7FF"
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+		"ftbchunks:allow_fake_players": 1b
+	}
+	message_history: [ ]
+	extra: { }
+}
